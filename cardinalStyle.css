@@ -2,6 +2,12 @@ header {
     font-size: 28px;
     display: inline-flex;
     align: center;
+    width: 100%;
+}
+
+.main {
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 a:before {
@@ -20,32 +26,35 @@ a:hover {
 }
 
 #pageTitle {
-    align: left;
     font-size: 42px;
 }
 
 #pageSpacer {
-    align: left;
+    margin-left:10%;
 }
 
 #pageAbout {
-    align: right;
+    text-align: right;
 }
 
 #pageReport {
-    align: right;
+    text-align: right;
 }
 
 #pageToS {
-    align: right;
+    text-align: right;
+}
+
+.bottomBar {
+    width: 100%;
 }
 
 #footer {
-    align: left;
+    text-align: left;
 }
 
 #links {
-    align: right;
+    text-align: right;
 }
 
 .legal {
