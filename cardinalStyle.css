@@ -1,0 +1,70 @@
+header {
+    font-size: 28px;
+    display: inline-flex;
+    align: center;
+}
+
+a:before {
+    text-decoration: none;
+    text-decoration-color: orange;
+}
+
+a:after {
+    text-decoration: none;
+    text-decoration-color: orange;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+#pageTitle {
+    align: left;
+    font-size: 42px;
+}
+
+#pageSpacer {
+    align: left;
+}
+
+#pageAbout {
+    align: right;
+}
+
+#pageReport {
+    align: right;
+}
+
+#pageToS {
+    align: right;
+}
+
+#footer {
+    align: left;
+}
+
+#links {
+    align: right;
+}
+
+.legal {
+    display: inline-flex;
+    align-items: left;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.share {
+    display: inline-flex;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.contact {
+    display: inline-flex;
+    align-items: right;
+    padding-left: 10%;
+    padding-right: 10%;
+}
