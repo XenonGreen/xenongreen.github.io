@@ -1,8 +1,10 @@
 header {
     font-size: 28px;
     display: inline-flex;
-    align: center;
+    align-self: center;
     width: 100%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .main {
@@ -27,14 +29,12 @@ a:hover {
 
 #pageTitle {
     font-size: 42px;
-}
-
-#pageSpacer {
-    margin-left:10%;
+    margin-right: 10%;
 }
 
 #pageAbout {
     text-align: right;
+    margin-left: 15%;
 }
 
 #pageReport {
@@ -66,14 +66,14 @@ a:hover {
 
 .share {
     display: inline-flex;
-    align-items: center;
+    align-self: center;
     padding-left: 10%;
     padding-right: 10%;
 }
 
 .contact {
     display: inline-flex;
-    align-items: right;
+    align-self: right;
     padding-left: 10%;
     padding-right: 10%;
 }
