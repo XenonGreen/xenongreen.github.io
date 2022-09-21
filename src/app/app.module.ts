@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CardinalLandingPageComponent } from './cardinal-landing-page/cardinal-landing-page.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CardinalLandingPageComponent
   ],
   imports: [
     BrowserModule,
