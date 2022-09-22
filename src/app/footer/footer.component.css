@@ -1,0 +1,12 @@
+.Footer {
+    display: inline-flex;
+}
+
+.Info-Header {
+    display: block;
+    text-align: left;
+}
+
+table {
+    margin: 0px, auto;
+}
