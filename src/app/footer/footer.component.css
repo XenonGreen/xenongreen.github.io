@@ -1,12 +1,20 @@
 .Footer {
-    display: inline-flex;
+    position: relative;
+    display: flex;
 }
 
 .Info-Header {
     display: block;
+    margin: auto;
+    padding-right: 25;
     text-align: left;
 }
 
 table {
-    margin: 0px, auto;
+    display: block;
+    margin: 50 auto;
+    padding: auto;
+    overflow: auto;
+    position: relative;
+    top: 0; left: 0; right: 0; bottom: 0;
 }

@@ -7,6 +7,8 @@ import { CardinalLandingPageComponent } from './cardinal-landing-page/cardinal-l
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { ReferencesComponent } from './references/references.component';
+import { ComingSoonComponentComponent } from './coming-soon-component/coming-soon-component.component';
+import { NotFoundComponentComponent } from './not-found-component/not-found-component.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { ReferencesComponent } from './references/references.component';
     CardinalLandingPageComponent,
     ContactComponent,
     FooterComponent,
-    ReferencesComponent
+    ReferencesComponent,
+    ComingSoonComponentComponent,
+    NotFoundComponentComponent
   ],
   imports: [
     BrowserModule,
